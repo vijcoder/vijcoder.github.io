@@ -1,0 +1,142 @@
+﻿
+
+
+
+
+
+/*88888888888888888888888888888888888888888888888888888888*/
+
+@media (min-width: 1920px) {
+     .top{border-width:0 0 50px 1920px;}
+}
+
+
+@media (min-width: 1440px) {
+     .top{border-width:0 0 50px 1440px;}
+}
+
+
+
+/* lg */ 
+@media (min-width: 1366px) {
+      
+}
+
+@media (min-width: 1366px) {
+      
+}
+
+
+
+@media (min-width: 1024px){
+    
+    #portfolio .portfolio-item {
+        width: 24.9%;
+        float: left;
+        max-width:350px;  
+    }
+}
+
+@media only screen (width: 1024px)
+{
+    .cd-timeline-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 24%;
+    top: 24%;
+    margin-left: -9px;
+    margin-top: -10px;
+    border-radius: 50%;
+    }
+
+     #portfolio .portfolio-item {
+        
+        float: left;  
+        border:solid 1px red;
+    }
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+     
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+     
+
+
+}
+
+
+@media (max-width: 767px){
+     
+
+    
+     #profile1{padding-top:30%;}
+    #portfolio .portfolio-item { /*width: 24.9%;*/
+        width: 100%;
+        max-width: 350px;
+        border: solid 1px blue;
+        float: left;
+        margin:0 auto;
+    }
+
+    #skill ul.no-bullets{width:70%; margin:0 auto;}
+    
+
+    /*---------main-menu-------*/
+    .navbar-default{margin:0; }
+    .navbar-brand {margin:0 0 0 10px;}
+    .navbar-brand img{height:100%; width:100%; }
+    .navbar-nav{margin: 7.5px -15px}
+    /*---------main-menu-------*/
+    #portfolio .portfolio-items{ width:100%; 
+                                 
+    max-width: 350px;
+    border:solid 0px red;
+  float: none;
+  padding:0 5px;
+  margin:0 auto;}
+
+    #portfolio .portfolio-item {/*width: 24.9%;*/
+                                overflow:hidden;
+    width:100%; 
+    max-width: 350px;
+    border:solid 0px red;
+  float: none;
+  margin:0 auto;
+   text-align:center;
+  /*padding: 15px;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;}
+
+}
+
+
+@media (max-width: 480px)
+{
+    
+
+}
+
+
+/* XS Portrait */
+@media (max-width: 360px) {
+         
+
+}
+
+/* XS Portrait */
+@media (max-width: 320px) {
+        
+
+}
+
+

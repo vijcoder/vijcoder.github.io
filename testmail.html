@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form role="form" action="send_form_email.php" method="post">
+        <div class="git-form-hd" style="margin-bottom:30px;">Feedback</div>
+        <div class="form-group" style="margin-top:20px;">
+            <input class="form-control" name="first_name" placeholder="Name*" required style="border-bottom:1px solid #333;" />
+        </div>
+
+        <div class="form-group" style="margin-top:40px;">
+            <div class="col-md-6 col-sm-12 col-xs-12 feedback-mobile">
+                <input type="tel" class="form-control" name="telephone" placeholder="Mobile*" required style="border-bottom:1px solid #333;" />
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 feedback-email">
+                <input type="email" class="form-control" name="email" placeholder="Email*" required style="border-bottom:1px solid #333;" />
+            </div>
+        </div>
+
+        <div style="width:100%; margin-top:20px; float:left">
+            <div class="form-group">
+                <textarea class="form-control" rows="2" name="comments" placeholder="Message*" required style="border-bottom:1px solid #333;"></textarea>
+            </div>
+        </div>
+
+        <div class="feedback-submit">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

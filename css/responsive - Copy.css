@@ -1,0 +1,131 @@
+﻿
+
+
+
+
+
+/*88888888888888888888888888888888888888888888888888888888*/
+/* lg */ 
+@media (min-width: 1200px) {
+     
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+     
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+     
+}
+
+
+@media (max-width: 767px){
+     #profile1{padding-top:30%;}
+    #portfolio .portfolio-item { /*width: 24.9%;*/
+        width: 100%;
+        max-width: 350px;
+        border: solid 1px blue;
+        float: left;
+        margin:0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+}
+
+
+
+@media (min-width: 1024px){
+    .top{border-width:0 0 70px 1024px;}
+    #portfolio .portfolio-item {
+        width: 24.9%;
+        float: left;
+        max-width:350px;  
+    }
+}
+@media only screen (width: 1024px)
+{
+    .cd-timeline-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 24%;
+    top: 24%;
+    margin-left: -9px;
+    margin-top: -10px;
+    border-radius: 50%;
+    }
+
+     #portfolio .portfolio-item {
+        
+        float: left;  
+        border:solid 1px red;
+    }
+
+}
+
+@media only screen (width: 640px) {
+    .top{border-width:0 0 70px 640px;}
+      #portfolio .portfolio-item { /*width: 24.9%;*/
+        width: 100%;         
+        border: solid 1px green;
+        float: left;
+        margin:0 auto;
+    }
+
+}
+
+@media only screen (max-width: 767px) {
+    #profile1{padding-top:30%;}
+    #portfolio .portfolio-item { /*width: 24.9%;*/
+        width: 100%;
+        max-width: 350px;
+        border: solid 1px blue;
+        float: left;
+        margin:0 auto;
+    }
+}
+
+
+@media only screen and (max-width:480)
+{
+    #profile1{padding-top:30%;}
+}
+
+@media  only screen  (width: 768px) 
+{
+
+    .top{border-width:0 0 70px 768px; border:solid 1px red;}
+
+    /*---------main-menu-------*/
+    .navbar-default{margin:0; }
+    .navbar-brand {padding:5px 15px;}
+    .navbar-brand img{height:100%;}
+    .navbar-nav{margin: 7.5px -15px}
+    /*---------main-menu-------*/
+
+    #portfolio .portfolio-item {/*width: 24.9%;*/
+                                 width:100%; 
+    max-width: 350px;
+    border:solid 1px red;
+  float: left;
+  /*padding: 15px;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;}
+
+}
+
+
