@@ -474,11 +474,11 @@ ul.icons {
 
 #skill .top {
     
-    border-color:transparent #eeecd2 #eeecd2 transparent;
+    border-color:transparent #e3e3e4 #e3e3e4 transparent;
 }
 #skill .bottom {
     
-    background-color:#eeecd2;
+    background-color:#e3e3e4;
 }
 
 
@@ -511,6 +511,49 @@ ul.icons {
 #skill ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
 
 
+/*-------------------certifications-------------------*/
+ 
+
+#certifications{ background-color:#e3e3e4;}
+#certifications .container{width:100%; max-width:1024px; margin:0 auto;}
+
+
+
+#certifications .top {
+    border-color:transparent #eeecd2 #eeecd2 transparent;
+}
+#certifications .bottom {
+    background-color:#eeecd2;
+}
+
+#certifications .no-bullets{text-align:left;}
+#certifications ul > li .ability-title{   display: inline-block; width: 60%;}
+#certifications ul > li .ability-score{float: right;}
+
+#certifications ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#certifications ul.no-bullets li {
+    line-height:25px;
+}
+
+#certifications ul > li .ability-score .glyphicon { 
+	color: #DFE0E0; 
+	font-size: 14px; 
+	 
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#certifications ul > li .ability-score .glyphicon.filled { color: #22A39F; }
+
+#certifications ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
+
+
 /*-------------------Experiance-------------------*/
 #experiance{ background-color:#eeecd2;}
 #experiance .container{width:100%; max-width:1024px; margin:0 auto;}
@@ -537,6 +580,9 @@ ul.icons {
             border-radius:50%;
         }
 .cd-timeline-content .bounce-in h1, h2{margin:0px 0; padding:5px 0 0 0;}
+.cd-timeline-content img {
+  width: 150px; height: 100px;
+}
 /*------------timeline css--------------*/
 
 
