@@ -310,7 +310,7 @@ ul.icons {
 
 
 /*-----main menu------*/
-.navbar-default {background-color:transparent; border:0; padding:15px 0;}
+.navbar-default {background-color:#a2a2a2; opacity:0.8; border:0; padding:15px 0;}
 .scrolldown{background-color:#a2a2a2; opacity:0.8; padding:5px 0;
                 box-shadow: 0px 5px 5px #888888;}
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{margin:0 0 0 30px; }
@@ -324,9 +324,14 @@ ul.icons {
 .navbar-nav { margin:15px;}
 .navbar-default .navbar-nav > li{list-style-type:none; padding:0 10px;}
 .navbar-default .navbar-nav > li a{color:#fff; font-weight:bold; text-decoration:none; padding:10px 0;}
-.navbar-default .navbar-nav > .active > a{ color:gold; background-color:transparent;}
+.navbar-default .navbar-nav > .active > a{ color:rgb(28, 131, 215); background-color:transparent;}
 .navbar-default .navbar-nav > .focus > a{ color:antiquewhite;background-color:transparent;}
 .navbar-default .navbar-nav > li a:hover{color:antiquewhite; background-color:transparent; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+{
+  color:rgb(28, 131, 215); background-color:transparent;
+}
 
 /*-----------typing css-----------------*/
  .typed-cursor {
